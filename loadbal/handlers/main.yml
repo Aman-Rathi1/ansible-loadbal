@@ -1,0 +1,6 @@
+---
+# handlers file for loadbal
+- name: restart
+  service:
+     name: "haproxy"
+     state: restarted
